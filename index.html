@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Дата (самая важная информация по которой пользователь будет “сканировать” карточки)
+	Время смены с указанием таймзоны (начало и конец) 12:00 - 15:00 AM (GMT)
+	Место работы (название организации может быть длинное)
+	Количество пользователей, которым была отправлена заявка
+	Статус (pending, paid, submitted)
+	Дата создания заявки
+	Автор заявки (имя и фамилия, может быть длинное)
+	Список требуемых умений для выполнения работы ( English / Operation Room / RN )
+	Имя первого, кто принял заявку -->
+    <main class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-head paid">
+              <div class="card-createat">
+                <span class="card-createat-value">
+                  Today
+                </span>
+              </div>
+              <div class="card-status">paid</div>
+            </div>
+            <div class="card-body">
+              <div class="card-author">John Doe from:</div>
+              <div class="card-company">Google</div>
+              <div class="card-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                harum laudantium hic, animi repellendus totam soluta, eos et sit
+                dignissimos officia! Ipsam numquam commodi necessitatibus
+                tempore, ea aperiam reiciendis eaque.
+              </div>
+              <div class="card-worktime">Work time: 12:00 - 15:00 AM (GMT)</div>
+              <div class="card-skills">
+                <div class="card-skills-element">javascript</div>
+              </div>
+              <div class="card-proposals">Proposals: 20</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-head pending">
+              <div class="card-createat">
+                <span class="card-createat-value">
+                  Yesterday
+                </span>
+              </div>
+              <div class="card-status">pending</div>
+            </div>
+            <div class="card-body">
+              <div class="card-author">John Doe from:</div>
+              <div class="card-company">Google</div>
+              <div class="card-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                harum laudantium hic, animi repellendus totam soluta, eos et sit
+                dignissimos officia! Ipsam numquam commodi necessitatibus
+                tempore, ea aperiam reiciendis eaque.
+              </div>
+              <div class="card-worktime">Work time: 12:00 - 15:00 AM (GMT)</div>
+              <div class="card-skills">
+                <div class="card-skills-element">javascript</div>
+                <div class="card-skills-element">html</div>
+                <div class="card-skills-element">css</div>
+                <div class="card-skills-element">node</div>
+                <div class="card-skills-element">express</div>
+              </div>
+              <div class="card-proposals">Proposals: 20</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-head submitted">
+              <div class="card-createat">
+                <span class="card-createat-value">
+                  02.06.2020
+                </span>
+              </div>
+              <div class="card-status">submitted</div>
+            </div>
+            <div class="card-body">
+              <div class="card-author">John Doe from:</div>
+              <div class="card-company">GoogleYahooAmazonTwitterAirbnb</div>
+              <div class="card-description">
+                Lorem ipsum dolor, sit
+              </div>
+              <div class="card-worktime">Work time: 12:00 - 15:00 AM (GMT)</div>
+              <div class="card-skills">
+                <div class="card-skills-element">javascript</div>
+                <div class="card-skills-element">html</div>
+                <div class="card-skills-element">css</div>
+                <div class="card-skills-element">node</div>
+                <div class="card-skills-element">express</div>
+              </div>
+              <div class="card-proposals">Proposals: 20</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-head pending">
+              <div class="card-createat">
+                <span class="card-createat-value">
+                  Yesterday
+                </span>
+              </div>
+              <div class="card-status">pending</div>
+            </div>
+            <div class="card-body">
+              <div class="card-author">John Doe from:</div>
+              <div class="card-company">Google</div>
+              <div class="card-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                harum laudantium hic, animi repellendus totam soluta, eos et sit
+                dignissimos officia! Ipsam numquam commodi necessitatibus
+                tempore, ea aperiam reiciendis eaque.
+              </div>
+              <div class="card-worktime">Work time: 12:00 - 15:00 AM (GMT)</div>
+              <div class="card-skills">
+                <div class="card-skills-element">javascript</div>
+                <div class="card-skills-element">html</div>
+                <div class="card-skills-element">css</div>
+                <div class="card-skills-element">node</div>
+                <div class="card-skills-element">express</div>
+              </div>
+              <div class="card-proposals">Proposals: 20</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-head pending">
+              <div class="card-createat">
+                <span class="card-createat-value">
+                  Yesterday
+                </span>
+              </div>
+              <div class="card-status">pending</div>
+            </div>
+            <div class="card-body">
+              <div class="card-author">John Doe from:</div>
+              <div class="card-company">Google</div>
+              <div class="card-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                harum laudantium hic, animi repellendus totam soluta, eos et sit
+                dignissimos officia! Ipsam numquam commodi necessitatibus
+                tempore, ea aperiam reiciendis eaque.
+              </div>
+              <div class="card-worktime">Work time: 12:00 - 15:00 AM (GMT)</div>
+              <div class="card-skills">
+                <div class="card-skills-element">javascript</div>
+                <div class="card-skills-element">html</div>
+                <div class="card-skills-element">css</div>
+                <div class="card-skills-element">node</div>
+                <div class="card-skills-element">express</div>
+              </div>
+              <div class="card-proposals">Proposals: 20</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-head pending">
+              <div class="card-createat">
+                <span class="card-createat-value">
+                  Yesterday
+                </span>
+              </div>
+              <div class="card-status">pending</div>
+            </div>
+            <div class="card-body">
+              <div class="card-author">John Doe from:</div>
+              <div class="card-company">Google</div>
+              <div class="card-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                harum laudantium hic, animi repellendus totam soluta, eos et sit
+                dignissimos officia! Ipsam numquam commodi necessitatibus
+                tempore, ea aperiam reiciendis eaque.
+              </div>
+              <div class="card-worktime">Work time: 12:00 - 15:00 AM (GMT)</div>
+              <div class="card-skills">
+                <div class="card-skills-element">javascript</div>
+                <div class="card-skills-element">html</div>
+                <div class="card-skills-element">css</div>
+                <div class="card-skills-element">node</div>
+                <div class="card-skills-element">express</div>
+              </div>
+              <div class="card-proposals">Proposals: 20</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-head pending">
+              <div class="card-createat">
+                <span class="card-createat-value">
+                  Yesterday
+                </span>
+              </div>
+              <div class="card-status">pending</div>
+            </div>
+            <div class="card-body">
+              <div class="card-author">John Doe from:</div>
+              <div class="card-company">Google</div>
+              <div class="card-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                harum laudantium hic, animi repellendus totam soluta, eos et sit
+                dignissimos officia! Ipsam numquam commodi necessitatibus
+                tempore, ea aperiam reiciendis eaque.
+              </div>
+              <div class="card-worktime">Work time: 12:00 - 15:00 AM (GMT)</div>
+              <div class="card-skills">
+                <div class="card-skills-element">javascript</div>
+                <div class="card-skills-element">html</div>
+                <div class="card-skills-element">css</div>
+                <div class="card-skills-element">node</div>
+                <div class="card-skills-element">express</div>
+              </div>
+              <div class="card-proposals">Proposals: 20</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
